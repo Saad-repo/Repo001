@@ -40,6 +40,13 @@ Q7 - EnrolleeSplitter
 -------------------------------
 A simple **C# command line application (.NET Core 3.0)** that accepts an optional path parameter and splits CSV files based on insurance company at the given path to multiple files. If no path param is given, the current working directory is used.
 
+### pseudo
+1. create a Dictionary that has User Id as the key and Enrollee object as the value
+2. get files CSV files at the given path and do the following for each CSV 
+3. read content and create Enrollee object for each line
+4. if Enrollee Id exists in the dictionary compare version and use the higher version
+5. else add to the dictionary
+6. For each distinct Insurance Company create a CSV file that has all of the respective Enrollees listed by last name
 
 temp
 -------------
