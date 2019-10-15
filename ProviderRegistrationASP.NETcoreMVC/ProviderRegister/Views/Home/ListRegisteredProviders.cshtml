@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ProviderInfo>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListRegisteredProviders</title>
+    <link rel="stylesheet" href="~/css/site.css"/>
+</head>
+
+<body>
+    <h2>Here is the list of registered providers</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>NPI Number</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Business Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ProviderInfo r in Model)
+            {
+            <tr>
+                <td>@r.Name</td>
+                <td>@r.NPInumber</td>
+                <td>@r.Email</td>
+                <td>@r.Phone</td>
+                <td>@r.BusinessAddress</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="Index">Register another provider</a>
+
+    </body>
+</html>
