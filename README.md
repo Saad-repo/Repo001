@@ -27,3 +27,9 @@ The entered provider info is stored in a strongly typed static collection for si
 #### Screenshot 5/5: Validation
 
 ![Validation](temp/img5-validation.bmp "Validation")
+
+
+
+temp
+-------------
+Temporary files / documentation files
