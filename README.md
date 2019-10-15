@@ -38,7 +38,7 @@ The entered provider info is stored in a strongly typed static collection for si
 
 Q7 - EnrolleeSplitter
 -------------------------------
-A simple **C# command line application (.NET Core 3.0)** that accepts an optional path parameter and splits files based on insurance company at the given path to multiple files. If no path param is given, the current working directory is used.
+A simple **C# command line application (.NET Core 3.0)** that accepts an optional path parameter and splits CSV files based on insurance company at the given path to multiple files. If no path param is given, the current working directory is used.
 
 
 temp
