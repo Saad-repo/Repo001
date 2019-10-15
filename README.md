@@ -49,6 +49,13 @@ A simple **C# command line application (.NET Core 3.0)** that accepts an optiona
 5. else add to the dictionary
 6. For each distinct Insurance Company create a CSV file that has all of the respective Enrollees listed by last name
 
+### sample input
+![input](temp/q7-input.bmp "input")
+
+### sample output
+![output](temp/q7-output.bmp "output")
+
+
 temp
 -------------
 Temporary files / documentation files
